@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo de la pagina</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <body class="min-h-screen bg-white max-w-[1920px] flex justify-center mx-auto">
+        
+        <div class="w-full grid xl:grid-cols-[minmax(100px,3fr),14fr,minmax(100px,3fr),100px] xl:grid-rows-[40px,50px,auto,70px,auto,auto,auto]  md:grid-cols-[1fr,1fr] md:grid-rows-[40px,auto,60px,auto,auto,auto,auto] md:px-4  grid-cols-[auto] grid-rows-[auto] gap-x-12  px-2">
+            
+            <!-- Header -->
+            <div class="bg-[#FAAB4D] w-full text-black xl:col-span-4 md:place-content-center md:col-span-2">
+                <ul class="xl:hidden grid grid-cols-2">
+                    <div class="w-14 flex items-center justify-start pl-4">
+                        <a href=""><img src="./img/logo2.png" alt=""></a>
+                    </div>
+                    <div class="flex items-center justify-end pr-4">
+                        <a href=""><i class="fa-solid fa-bars"></i></a>
+                    </div>
+                </ul>
+                <ul class="xl:grid xl:grid-cols-[4fr,auto,auto,auto,auto] hidden place-items-center gap-12 pr-4">
+                    <li class="col-start-2 col-end-3"><a href="">All Products</a></li>
+                    <li class=""><a href="">Blog</a></li>
+                    <li class=""><a href="">About us</a></li>
+                    <li class=""><a href="">Careers</a></li>
+                </ul>
+            </div>
+
+            <!-- Header 2 -->
+            
+            <div class="bg-[#215b6F] w-full xl:grid col-span-4 text-white place-content-center hidden px-2">
+                <ul class="xl:grid xl:grid-cols-11 place-items-center text-white gap-[1px] text-md">
+                    <div class="w-10 grid place-self-start">
+                        <a href=""><img src="./img/logo2.png" alt=""></a>
+                    </div>
+                    <li><a href="">Use cases</a><i class="fa-solid fa-caret-down px-4"></i></li>
+                    <li><a href="">Features</a><i class="fa-solid fa-caret-down px-4"></i></li>
+                    <li><a href="">Solutions</a><i class="fa-solid fa-caret-down px-4"></i></li>
+                    <li><a href="">Pricing</a><i class="fa-solid fa-caret-down px-4"></i></li>
+                    <li><a href="">Apps</a><i class="fa-solid fa-caret-down px-4"></i></li>
+                    <li><a href="">Resources</a><i class="fa-solid fa-caret-down px-4"></i></li>
+
+                    <li class="xl:col-start-9 xl:col-end-10"><a href="">Book a Demo</a></li>
+                    <!-- Separator agregar-->
+                    <li class="flex"><a href="">Log out</a><div class="w-[2px] h-auto bg-white mx-4 "></div></li>
+                    <button class="flex items-center space-x-2 text-white hover:text-[#FAAB4D]">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <span><a href="">Go to timer</a></span>
+                    </button>
+                </ul>
+            </div>
+
+            <!-- Nav -->
+
+            <div class="bg-[#215b6F] w-full grid text-white xl:col-span-4 xl:grid-cols-[auto,auto] xl:grid-rows-[auto,auto,auto] xl:place-items-start xl:px-64 xl:gap-x-2 md:grid-rows-[auto,auto,auto,auto] md:px-20 md:col-span-2 sm:px-12 gap-y-8 place-items-center py-8 gap-x-4 ">
+                <div class="text-3xl text-center font-mono font-semibold text-gray-100 sm:text-4xl md:text-5xl xl:text-6xl xl:text-start px-8 sm:px-0">
+                    Time tracking software to drive every decision
+                </div>
+                <div class="text-xs text-center sm:text-sm md:text-base xl:text-lg xl:col-start-1 xl:text-start px-12 sm:px-0">
+                    Give your team a time tracker they’ll love, make confident data-backed decisions and focus on the work that matters most.
+                </div>
+                <div class="text-xs sm:text-sm md:text-base xl:text-lg xl:col-start-1 md:flex items-center justify-center space-x-4 grid grid-cols-1 grid-rows-[auto,auto] gap-4 md:gap-0 px-8 sm:px-32 md:px-16 xl:px-0">
+                    <button class="rounded-full bg-[#1D51CC] text-white py-3 px-6 font-semibold ">
+                        Start tracking for free
+                    </button>
+                    <button class="flex items-center justify-center space-x-2 text-white py-3 px-6">
+                        <i class="fa-solid fa-circle-play text-black"></i>
+                        <span>See how it works</span>
+                    </button>
+                </div>
+                <div class="xl:col-start-2 xl:row-start-1 xl:row-end-4 grid place-self-center xl:justify-self-end md:pt-4 xl:pl-[4vw]">
+                    <img class="h-44 md:h-68 xl:h-[325px] 2xl:h-96" src="./img/dashboard.webp" alt="">
+                </div>
+            </div>
+            <div class="bg-[#1D515E] w-full xl:col-span-4 grid xl:grid-cols-[1fr,1fr,4fr,4fr,4fr,4fr,4fr,1fr,1fr] place-items-center md:col-span-2 sm:grid-cols-[1fr,1fr,1fr,1fr,2fr,1fr,1fr] py-2 sm:grid-rows-[1fr] grid-rows-[auto,auto] grid-cols-[1fr,1fr,1fr,1fr,1fr,1fr] gap-x-4 md:gap-8 xl:gap-12 gap-y-4 sm:gap-y-0 sm:gap-x-2 ">
+                <div class="xl:col-start-3 sm:col-start-2 xl:col-end-4 sm:col-end-3 col-start-1 col-end-3">
+                    <a href=""><img class="h-4 md:h-6 w-auto" src="./img/amazon.png" alt=""></a>
+                </div>
+                <div class="xl:col-start-4 sm:col-start-3 xl:col-end-5 sm:col-end-4 col-start-3 col-end-5">
+                    <a href=""><img class="h-4 md:h-6 w-auto" src="./img/sap.png" alt=""></a>
+                </div>
+                <div class="xl:col-start-5 sm:col-start-4 xl:col-end-6 sm:col-end-5 col-start-5 col-end-7">
+                    <a href=""><img class="h-4 md:h-6 w-auto" src="./img/uber.png" alt=""></a>
+                </div>
+                <div class="xl:col-start-6 sm:col-start-5 xl:col-end-7 sm:col-end-6 col-start-2 col-end-4">
+                    <a href=""><img class="h-4 md:h-6 w-auto" src="./img/linkedin.png" alt=""></a>
+                </div>
+                <div class="xl:col-start-7 sm:col-start-6 xl:col-end-8 sm:col-end-7 col-start-4 col-end-6">
+                    <a href=""><img class="h-4 md:h-6 w-auto" src="./img/booking.png" alt=""></a>
+                </div>
+            </div>
+
+            <!-- Content -->
+
+            <div class="bg-white xl:row-start-5 xl:col-start-1 xl:col-end-3 grid xl:grid-rows-[auto,auto,auto] md:grid-cols-2 sm:grid-cols-1 sm:grid-rows-[auto,auto,auto,auto] text-[#2F1640] pt-24 gap-y-8 md:col-span-2 mb-8 place-self-center md:pl-12 pl-0">
+                <div class="xl:col-span-2 text-3xl sm:text-4xl md:text-5xl xl:text-6xl text-center font-medium md:col-span-2 sm:col-span-1 px-12 sm:px-24 pb-8">
+                    Flexible time tracking tool for your business needs
+                </div>
+                <div class="text-xs sm:text-sm md:text-base xl:text-lg grid lg:grid-cols-[50px,auto,auto,auto,auto,50px] sm:grid-cols-[50px,auto,auto,50px] grid-cols-[50px,auto,50px] text-[#2F1640] xl:col-span-2 pb-8 md:col-span-2 gap-y-8 lg:gap-y-0 place-self-center sm:gap-x-12 lg:gap-x-8">
+                    <button class="flex items-center space-x-2 px-4 py-2 rounded-full bg-[#FFD453] hover:bg-[#F2D5A0] w-44 sm:col-start-2 lg:col-start-2 col-start-2">
+                        <i class="fa-solid fa-clock text-black"></i>
+                        <span>Time reporting</span>
+                    </button>
+                    
+                    <button class="flex items-center space-x-2 px-4 py-2 rounded-full bg-[#FFD453] hover:bg-[#F2D5A0] w-44 sm:col-start-3 lg:col-start-3 col-start-2">
+                        <i class="fa-solid fa-file-invoice-dollar text-black"></i>
+                        <span>Time billing</span>
+                    </button>
+                    
+                    <button class="flex items-center space-x-2 px-4 py-2 rounded-full bg-[#FFD453] hover:bg-[#F2D5A0] w-44 sm:col-start-2 lg:col-start-4 col-start-2">
+                        <i class="fa-solid fa-chart-line text-black"></i>
+                        <span>Project tracking</span>
+                    </button>
+                    
+                    <button class="flex items-center space-x-2 px-4 py-2 rounded-full bg-[#FFD453] hover:bg-[#F2D5A0] w-44 sm:col-start-3 lg:col-start-5 col-start-2">
+                        <i class="fa-solid fa-users text-black"></i>
+                        <span>Team workload</span>
+                    </button>
+                </div>
+                <div class="grid md:col-span-2 md:grid-cols-2 gap-y-12">
+                    <div class="grid xl:col-span-1 md:col-span-1 text-start font-mono gap-6 pr-8 md:px-0 mr-4">
+                        <div class="text-gray-500 xl:text-2xl md:text-xl text-lg md:pl-0 pl-8">
+                            CUSTOMIZABLE TIME REPORTING SOFTWARE <br>
+                        </div>
+                        <div class="text-[#2F1640] xl:text-3xl md:text-2xl text-xl md:pl-0 pl-8">
+                            Know exactly how much time your team spends on tasks <br>
+                        </div>
+                        <div class="xl:text-xl md:text-lg text-md md:pl-0 pl-8">
+                            Say goodbye to inaccurate weekly timesheets and get a handle on your team's exact billable and non-billable hours. <br>
+                        </div>
+                        <div class="xl:text-xl md:text-lg text-md text-[#FFD453] hover:text-[#2F1640] pt-8 md:pl-0 pl-8">
+                            <span>More about time reporting</span>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-1 md:col-span-1 items-center xl:row-span-2 grid place-self-center sm:m-0 m-4">
+                        <img class="md:w-auto" src="./img/dash2.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bg-[#F2E0D0] xl:row-start-5 xl:col-start-3 md:col-span-2 xl:px-4 xl:py-4 mb-8 px-[20vw] py-8">
+                <div>
+                    <label class="font-bold text-lg">Search</label>
+                    <div class="flex pt-2">
+                    <input type="text" placeholder="Find a post..." class="px-4 py-2  border rounded-l-3xl focus:outline-none focus:ring-2 focus:ring-purple-600 w-full" />
+                    <button class="px-4 py-2 bg-black text-white rounded-r-lg hover:bg-gray-800">Search</button>
+                    </div>
+                </div>
+                <div class="pt-6">
+                    <h2 class="font-bold text-xl mb-4">Other Articles</h2>
+                    <button class="w-full text-start">
+                        <div class="bg-[#FFD453] shadow-md rounded-3xl p-4 mb-4">
+                            <h3 class="font-semibold text-lg">10 Web Design Blogs You Can't Miss</h3>
+                            <p class="text-gray-500 text-sm">November 6, 2017</p>
+                        </div>
+                    </button>
+                    
+                    <button class="w-full text-start">
+                        <div class="bg-[#FFD453] shadow-md rounded-3xl p-4 mb-4">
+                            <h3 class="font-semibold text-lg">20 Myths About Web Design</h3>
+                            <p class="text-gray-500 text-sm">November 6, 2017</p>
+                        </div>
+                    </button>
+
+                    <button class="w-full text-start">
+                        <div class="bg-[#FFD453] shadow-md rounded-3xl p-4">
+                            <h3 class="font-semibold text-lg">14 Common Misconceptions About Web Design</h3>
+                            <p class="text-gray-500 text-sm">November 6, 2017</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+
+
+
+            <div class="grid bg-[#1D515E] xl:row-start-6 xl:col-span-4 text-white xl:grid-cols-[300px,auto,300px] px-4 pt-24 pb-12 gap-y-12 md:col-span-2">
+                <div class="xl:col-start-2 grid xl:grid-cols-[1fr,5fr,auto] xl:grid-rows-[auto,50px,auto,auto] md:grid-rows-[auto,auto,auto,auto] md:grid-cols-[1fr,auto] pb-4 md:gap-x-12 grid-cols-[1fr,auto] grid-rows-[auto,auto,auto]">
+                    <div class="bg-pink-100 text-black p-4 rounded-2xl row-start-1 col-span-2 font-mono mx-8 my-4 lg:mx-0 lg:my-0">
+                        <p class="lg:text-6xl md:text-5xl font-semibold p-4 sm:text-4xl text-3xl ">
+                            Time tracking? Do you mean 
+                            <span class="inline-flex items-center bg-[#1D515E] text-white px-4 py-2 rounded-3xl lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-bold leading-none">
+                                spying on
+                            </span> 
+                            my employees?
+                        </p>
+                    </div>
+                    <div class="xl:col-start-1 xl:row-start-2 text-start col-span-1 md:mt-4 grid-rows-[auto,auto] ">
+                        <div class="xl:grid xl:place-self-center pl-12 pt-8 xl:pl-8">
+                            <div class="w-24 h-24 bg-[#1D51CC] rounded-full flex items-center justify-center xl:row-start-1">
+                                <img class="w-14" src="img/manager.png" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="xl:row-start-2 grid grid-rows-[auto,auto] grid-cols-[100px,auto] pl-12 xl:pl-8 ">
+                            <label class="text-white xl:text-md text-center">A concerned<br> </label>
+                            <label class="text-white xl:text-md text-center row-start-2 col-span-1">manager</label>
+                        </div>
+                    </div>
+                    
+                    <div class="xl:row-start-3 xl:row-end-4 xl:col-start-2 md:col-span-1 md:grid md:place-self-center xl:py-0 lg:py-12 md:py-8 col-span-2 py-12 px-8 md:px-0">
+                        <label class="xl:text-4xl md:text-3xl text-2xl">
+                            No, we do not. At <span class="text-yellow-300"><a href="">Toggl</a></span>, we see time as an incredible and an excelent ✨ 
+                            <span class="text-yellow-300"><a href="">opportunity</a></span>. ✨ <br> <br>
+                        </label> 
+                        <label class="xl:text-xl md:text-lg font-mono text-md">
+                            An opportunity to convert time tracked into actionable insights that boost productivity, 
+                            increase efficiency and balance team workloads. So you can drive 
+                            <span class="underline text-decoration-[#F2D5A0]"><a href="">profitability and growth</a></span> while prioritising your team's 
+                            <span class="underline text-decoration-green-500"><a href="">trust and well-being</a></span>.
+                        </label> 
+                        
+                    </div>
+                </div> 
+                <div class="xl:col-start-2 space-x-4 grid xl:grid-rows-[auto,auto,auto] text-black">
+                    <label class="md:text-xl font-bold pb-8 text-white xl:px-0 px-8 ">
+                        COMPANIES THAT USE TOGGL TRACK SEE:
+                    </label>
+                    <div class="grid xl:grid-cols-3 gap-4 xl:px-0 px-12">
+                        <div class="p-6 bg-[#F7D8F3] rounded-lg space-y-4 grid xl:grid-rows-[200px_auto]">
+                            <div class="overflow-hidden">
+                                <h3 class="text-3xl font-bold pb-4">40+ hours saved monthly</h3>
+                                <p class="text-lg text-gray-500 pb-2">
+                                    at Perception Engineering with one-click time tracking and reporting
+                                </p>
+                            </div>
+                            <a href="#" class="text-[#1D515E] font-bold hover:underline">
+                                Read case study →
+                            </a>
+                        </div>
+        
+                        <div class="p-6 bg-[#FAE5F7] rounded-lg space-y-4 grid xl:grid-rows-[minmax(200px,auto),auto]">
+                            <div class="overflow-hidden">
+                                <h3 class="text-3xl font-bold pb-4">100% time tracking adoption</h3>
+                                <p class="text-lg text-gray-500 pb-2">
+                                    with easy, non-intrusive time reporting at software consultancy Newlogic
+                                </p>
+                            </div>
+                            <a href="#" class="text-[#1D515E] font-bold hover:underline">
+                                Read case study →
+                            </a>
+                        </div>
+                        
+                        <div class="p-6 bg-[#FDF1EC] rounded-lg space-y-4 grid xl:grid-rows-[minmax(200px,auto),auto]">
+                            <div class="overflow-hidden">
+                                <h3 class="text-3xl font-bold pb-4">20% increase in profitability</h3>
+                                <p class="text-lg text-gray-500 pb-2">
+                                    by accurately tracking billable work hours at Sweat+Co PR agency
+                                </p>
+                            </div>
+                            <a href="#" class="text-[#1D515E] font-bold hover:underline">
+                                Read case study →
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center space-y-10 pt-16 text-white xl:px-0 px-8 ">
+                        <h2 class="md:text-5xl font-semibold text-4xl">
+                        Want better insights on how your team is spending their time?
+                        </h2>
+                        <div class="sm:flex sm:justify-center sm:space-x-4 text-lg grid grid-col-[auto,auto,auto,auto] gap-8 md:text-xl">
+                        <div class="sm:flex sm:items-center sm:space-x-2 col-start-1 col-end-3">
+                            <span>✔️</span>
+                            <p>No credit card required</p>
+                        </div>
+                        <div class="sm:flex sm:items-center sm:space-x-2 col-start-3 col-end-5">
+                            <span>✔️</span>
+                            <p>Free 30-day trial for all features</p>
+                        </div>
+                        <div class="sm:flex sm:items-center sm:space-x-2 col-start-2 col-end-4">
+                            <span>✔️</span>
+                            <p>Cancel anytime</p>
+                        </div>
+                        </div>
+                        <div class="sm:space-x-4 grid sm:grid-cols-[auto,auto] place-content-center gap-8">
+                        <button class="bg-[#1D51CC] text-white px-6 py-3 rounded-full font-bold hover:bg-blue-200 ">
+                            Start tracking for free
+                        </button>
+                        <a href="#" class="text-blue-100 hover:underline place-content-center ">Or read more case studies →</a>
+                        </div>
+                    </div>
+
+                </div> 
+            </div>
+            
+            <div class="bg-[#215b6F] xl:col-start-1 xl:col-end-5 md:col-span-2 grid grid-rows-[auto,auto,auto] pt-4 pb-12 px-4 w-full place-items-center ">
+                <div class="text-white grid md:grid-cols-[auto,120px,auto] xl:grid-cols-[auto,200px,auto] text-start xl:w-4/6 md:w-11/12 md:gap-0 gap-8 ">
+                    <div class="grid grid-cols-[auto,auto,auto] md:gap-0 gap-8">
+                        <h1 class="text-2xl font-bold grid place-self-center">the</h1>
+                        <img class="w-28 grid place-self-center pt-2" src="img/toggl logo.png" alt="">
+                        <h1 class="text-2xl font-bold grid place-self-center">company</h1>
+                    </div>
+                    <div class="xl:w-full md:w-3/4 border-t my-2 grid place-self-center hidden md:grid"></div>
+                    <div class="grid grid-cols-[auto,auto,auto] text-end">
+                        <h1 class="grid place-self-center"><a href="">Blog</a></h1>
+                        <h1 class="grid place-self-center"><a href="">About us</a></h1>
+                        <h1 class="grid place-self-center"><a href="">Working at Toggl</a></h1>
+                    </div>
+                </div>
+                
+                <div class="text-gray-300 xl:w-4/6 md:w-11/12 font-semibold place-self-start py-8 pl-2 md:place-self-center">
+                    <h1>Discover our other tools:</h1>
+                </div>
+
+                <div class="grid sm:grid-cols-3 gap-4 xl:w-4/6 md:w-11/12 grid-cols-1 ">
+                    <div class="bg-[#1D51CC] shadow-md rounded-lg p-4 hover:bg-[#9E77F2] group">
+                        <a href="">
+                            <h3 class="font-semibold text-lg text-[#9E77F2] group-hover:text-white">toggl plan</h3>
+                            <p class="text-[#D5D0D7] text-sm font-medium group-hover:transform group-hover:rotate-3">Beautifully simple team planning</p>
+                        </a>
+                    </div>
+                
+                    <div class="bg-[#1D51CC] shadow-md rounded-lg p-4 hover:bg-[#FF8A7A] group">
+                        <a href="">
+                            <h3 class="font-semibold text-lg text-[#FF8A7A] group-hover:text-white">toggl hire</h3>
+                            <p class="text-[#D5D0D7] text-sm font-medium group-hover:transform group-hover:rotate-3">Easy full-cycle hiring</p>
+                        </a>
+  
+                    </div>
+                
+                    <div class="bg-[#1D51CC] shadow-md rounded-lg p-4 hover:bg-[#59C9A5] group">
+                        <a href="">
+                            <h3 class="font-semibold text-lg text-[#59C9A5] group-hover:text-white">toggl work</h3>
+                            <p class="text-[#D5D0D7] text-sm font-medium group-hover:transform group-hover:rotate-3">Efficient expense management</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
